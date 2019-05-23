@@ -4,7 +4,7 @@ def valid_move?(board, index)
   puts index
   puts index.between?(0, 8)
   puts position
-  if index.between?(0, 8) == true && position != true
+  if index.between?(0, 8) == true && position == true
     return true
   else
     return false
